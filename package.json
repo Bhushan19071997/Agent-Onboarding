@@ -2,7 +2,7 @@
       "name": "agent-onboarding-application",
       "version": "0.1.0",
       "private": true,
-      "homepage": "https://yourusername.github.io/agent-onboarding-application",
+      "homepage": "https://ageasfederal.me",
       "dependencies": {
             "@radix-ui/react-accordion": "^1.2.3",
             "@radix-ui/react-alert-dialog": "^1.1.6",
@@ -65,6 +65,7 @@
             "build": "vite build",
             "preview": "vite preview",
             "deploy": "gh-pages -d dist",
+            "deploy:vps": "powershell -ExecutionPolicy Bypass -File deploy.ps1",
             "predeploy": "npm run build"
       }
 }
